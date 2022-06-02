@@ -35,4 +35,6 @@ bash lmp_tf.sh
 
 ## Official tf deepmd-kit
 * location: tf-deepmd 
+paddle-deepmd and tf deepmd performance comparison on 
+* Paddle deepmd and TF deepmd performance comparison on Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz
 ![image](https://user-images.githubusercontent.com/50223303/167381548-ea102925-89d6-4415-9726-3b6b058f95cc.png)
