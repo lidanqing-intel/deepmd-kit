@@ -24,20 +24,6 @@ export PADDLEPADDLE_TP_CACHE="/home/guest/tp_cache"
 #1.2.3.dev530+g8d8f289.d20220512
 export tensorflow_root=/home/tensorflowroot
 export deepmd_root=/home/deepmdroot
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/root/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/root/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/root/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/root/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
 export PATH=/home/jessie/cmake-3.21.0-linux-x86_64/bin:$PATH
 
 export PATH=/home/lammps-stable_29Oct2020/src:$PATH
