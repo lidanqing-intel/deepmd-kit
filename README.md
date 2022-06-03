@@ -28,12 +28,13 @@ bash lmp_tf.sh
 ## Official paddle-deepmd 
 * location: https://github.com/X4Science/paddle-deepmd
 * Version: X4Science/paddle-deepmd:156c0d39b0bf89f0373ae7278cdba4d0a7fed7bc
-版本说明：
-基于PaddleInference框架，使得DeepMD支持了LAMMPS软件的计算：对source/api_cc下的代码进行了重构，替换掉tf框架，并对安装编译设置进行了相关修改
-性能测试：
+说明：
+Paddle-Deepmd 基于PaddleInference框架，使得DeepMD支持了LAMMPS软件的计算：对source/api_cc下的代码进行了重构，替换掉tf框架，并对安装编译设置进行了相关修改
+PaddleScience 分子动力学模块 https://www.paddlepaddle.org.cn/science
 * Note: official version is keep changing and test data is not uploaded
 
+
 ## Official tf deepmd-kit
-* location: paddle-deepmd and tf dehttps://github.com/deepmodeling/deepmd-kit
+* location: https://github.com/deepmodeling/deepmd-kit
 * Paddle-deepmd and TF-deepmd performance comparison on Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz
 ![image](https://user-images.githubusercontent.com/50223303/167381548-ea102925-89d6-4415-9726-3b6b058f95cc.png)
