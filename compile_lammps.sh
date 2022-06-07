@@ -1,5 +1,6 @@
 #apt install libc-dev
 cd /home
+wget https://github.com/lammps/lammps/archive/stable_29Oct2020.tar.gz
 rm -rf lammps-stable_29Oct2020/
 tar -xzvf stable_29Oct2020.tar.gz
 cd lammps-stable_29Oct2020/src/
