@@ -1,7 +1,7 @@
 #apt install libc-dev
 cd /home
-wget https://github.com/lammps/lammps/archive/stable_29Oct2020.tar.gz
 rm -rf lammps-stable_29Oct2020/
+# wget https://github.com/lammps/lammps/archive/stable_29Oct2020.tar.gz
 tar -xzvf stable_29Oct2020.tar.gz
 cd lammps-stable_29Oct2020/src/
 cp -r /home/deepmd-kit/source/build/USER-DEEPMD .
