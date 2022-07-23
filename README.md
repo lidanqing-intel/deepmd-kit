@@ -1,5 +1,5 @@
 # paddle-deepmd and tf-deepmd reproduction
-## Reproduce multithreading issue with this repo
+## Reproduce multithreading with this repo
 ### Test paddle-deepmd paddle-test multithreading
 ```
 git clone https://github.com/lidanqing-intel/deepmd-kit.git
